@@ -1,0 +1,130 @@
+/* ################################################################################################
+common css start here
+################################################################################################ */
+
+body{
+    font-family: georgia;
+    margin: 0 auto;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 960px;
+}
+
+/* ################################################################################################
+header css start here
+################################################################################################ */
+.inner-header{
+    background: #290000;
+}
+
+.top-bar{
+    width: 100%;
+    height: 5px;
+    background: #76c38f;
+}
+
+.nav-item:hover{
+    background: #76c38f;
+    border-radius: 6px;
+}
+.dropdown-menu{
+    background: #680303;
+}
+.dropdown-item:hover{
+    background: #76c38f;
+    border-radius: 6px;
+}
+.slide-head{
+    font-size: 46px;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+.slide-text{
+    font-size: 12px;
+    color: #979797;
+}
+
+.slider {
+    background: none !important;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+    border: 20px solid #6b6b6b;
+}
+.slide-btn{
+    background: #76c38f;
+    color: rgb(255, 255, 255);
+}
+.slide-btn:hover{
+    background: #228a43;
+    color: #eee;
+}
+
+/* ######################################################################################################## 
+ inner services area stylle
+######################################################################################################## */
+
+.inner-service{
+    background: #660000;
+}
+.crd:hover{
+    background: #76c38f;
+    color: #fff;
+}
+.latest-title{
+    position: relative;
+    text-align: center;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: #6b6b6b;
+    position: relative;
+}
+.text-title{
+    position: absolute;
+    top: -30px;
+    left: 38%;
+    background: #6b6b6b;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.lt-work{
+    border: 4px solid #fff;
+}
+.lt-work:hover{
+    border: 4px solid #6b6b6b;
+}
+
+
+
+
+
+.inner-footer{
+    background: #303030;
+}
+
+.quik-link{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #6b6b6b;
+    font-size: 14px;
+}
+.foot-3rd{
+    font-size: 15px;
+}
+.fo{
+    border-bottom: 1px solid #000000;
+}
+.foo{
+    border-top: 1px solid #706f6f;
+}
